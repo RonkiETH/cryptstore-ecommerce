@@ -10,7 +10,7 @@ Librerías utilizadas: -bcryptjs -bootstrap -connect-flash -cors -dotenv -expres
 
 -0. El .env fue enviado por privado al profesor en Discord.
 
--1. Reemplazar el código en el archivo database.js por la URL enviada por Discord.
+-1. Crear un archivo.env con las variables enviadas por discord, o reemplazar el código en el archivo database.js por la URL enviada por Discord.
 
 -2. Si bien no están implementadas todas las librerías mencionadas anteriormente, para iniciar el proyecto es necesario instalarlas.
 
