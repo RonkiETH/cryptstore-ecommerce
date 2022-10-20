@@ -1,0 +1,28 @@
+<form action="/users/signup" method="POST" class="w-100 m-auto h-100 text-center form mt-5">
+    <div class="form-group mt-5">
+        <div class="mb-3">
+            <h1 class="mt-5">¿Nuevo en CryptStore? Regístrate.</h1>
+        </div>
+        <div class="mb-3">
+            <input type="text" class="form-control m-auto" name="name" id="formGroupExampleInput2" placeholder="Name" value="{{name}}">
+        </div>
+        <div class="mb-3">
+            <input type="email" class="form-control m-auto" name="email" id="formGroupExampleInput2" placeholder="Email" value="{{email}}">
+        </div>
+        <div class="mb-3">
+            <input type="password" class="form-control m-auto" name="password" id="inputPassword" placeholder="Contraseña" value="{{password}}">
+        </div>
+        <div class="mb-3">
+            <input type="password" class="form-control m-auto" name="confirm_password" id="inputPassword" placeholder="Confirmar Contraseña" value="{{confirm_password}}">
+        </div>
+        <div class="my-3">
+            <p class="form-text text-dark text-center m-auto">Al registrarte aceptas nuestras <a href="#" class="fw-bold text-dark">Condiciones</a>, la <a href="#" class="fw-bold text-dark">Política de datos</a> y la <a href="#" class="fw-bold text-dark">Política de cookies</a>.</p>
+        </div>
+        <div class="my-4">
+            <button class="btn fs-5 bg-warning bg-opacity-50" type="submit">Registrarte</button>
+        </div>
+        <div class="mb-3">
+            <p class="form-text text-dark text-center m-auto">¿Ya tienes una cuenta? <a href="/users/signin" class="fw-bold text-dark">Inicia Sesión</a></p>
+        </div>
+    </div>
+</form>
