@@ -15,4 +15,5 @@ Librerías utilizadas: -bcryptjs -bootstrap -connect-flash -cors -dotenv -expres
 -2. Si bien no están implementadas todas las librerías mencionadas anteriormente, para iniciar el proyecto es necesario instalarlas.
 
 -3. Una vez instaladas las librerías, el comando para iniciar el proyecto es "npm start" o "npm run dev".
+
 -4. Ignorar los archivos "note", ya que son de prueba para el "CRUD", pero no formarán parte del proyecto
