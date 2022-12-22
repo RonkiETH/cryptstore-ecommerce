@@ -1,13 +1,14 @@
 const { Router } = require('express')
 const router = Router();
 
-const { renderNoteForm, 
-        createNewNote, 
-        renderNotes, 
-        renderEditForm, 
-        updateNote, 
-        deleteNote 
-    } = require('../controllers/notes.controller');
+const { 
+    renderNoteForm, 
+    createNewNote, 
+    renderNotes, 
+    renderEditForm, 
+    updateNote, 
+    deleteNote 
+} = require('../controllers/notes.controller');
 
 const { isAuthenticated } = require('../helpers/auth')
 

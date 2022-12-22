@@ -53,9 +53,9 @@ header{
 }
 
 /* Estilos del footer */
-footer{
+/* footer{
   margin-top: auto !important;
-}
+} */
 footer .container-fluid a:hover{
     text-decoration: underline !important;
 }

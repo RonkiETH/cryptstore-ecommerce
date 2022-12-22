@@ -1,14 +1,31 @@
-CryptStore es un E-Commerce argentino de productos crypto, entre ellos, gorros, fundas, mates, tazas y accesorios
+# CryptStore
+Esta es un E-Commerce básico de productos crypto, entre ellos gorros, fundas, mates, tazas y accesorios.
 
-Frontend: -Landing Page -Página de productos + carrito de compras. -Formularios de registro y de login.
+Las funciones de esta aplicación son:
 
-Backend: -Validación registro y login (pendiente) -Cargar productos en bases de datos (pendiente) -Validar compra + pasarela de pagos (pendiente) -Nodemailer (pendiente)
+- Permite crear un usuario, iniciar sesión y que cada usuario pueda interactuar con sus notas.
+- Cargar productos en un carrito y poder efectuar una compra (En desarrollo).
 
-Librerías utilizadas: -bcryptjs -bootstrap -connect-flash -cors -dotenv -express -express-session -hbs -method-override -mongoose -morgan -passport -passport-local -path -nodemon
+![App Screenshot](https://i.postimg.cc/k5gF25Hx/landing-crypstore.jpg)
 
-*Aclaraciones:*
--0. El .env fue enviado por privado al profesor en Discord.
--1. Reemplazar el código en el archivo database.js por la URL enviada por Discord.
--2. Si bien no están implementadas todas las librerías mencionadas anteriormente, para iniciar el proyecto es necesario instalarlas.
--3. Una vez instaladas las librerías, el comando para iniciar el proyecto es "npm start" o "npm run dev".
--4. Ignorar los archivos "note", ya que son de prueba para el "CRUD", pero no formarán parte del proyecto
+## Instalación
+
+```bash
+  git clone github.com/RonkiETH/cryptstore-ecommerce
+  cd cryptstore-ecommerce
+  npm install
+  npm start # Iniciar la aplicación en modo de producción
+  npm run dev # Iniciar la aplicación en modo developer
+```
+
+## Variables de entorno
+
+`CRYPTSTORE_MONGODB_HOST`
+
+`CRYPTSTORE_MONGODB_DATABASE`
+
+## Tecnologías utilizadas
+
+**Frontend:** Handlebars, JavaScript, Bootstrap.
+
+**Backend:** Node.js, Express.

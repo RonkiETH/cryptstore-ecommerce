@@ -25,7 +25,7 @@
                         <a class="nav-link active mx-1" href="#contacto">Contacto</a>
                     </li>
                 </ul>
-                    <form class="d-flex me-2 text-center" role="search">
+                    <form class="d-flex me-1 text-center" role="search">
                     <input
                         class="form-control me-2 align-self-start fs-5"
                         type="search"
@@ -38,6 +38,9 @@
                 </form>
                 <ul class="navbar-nav ml-auto mb-2 mb-lg-0 text-nowrap fs-5">
                     {{#if user}}
+                    <li class="nav-item">
+                        <a class="nav-link active mx-1" href="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link active mx-1" href="/users/logout">Cerrar sesión</a>
                     </li>
