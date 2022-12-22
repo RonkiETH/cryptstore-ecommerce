@@ -29,3 +29,4 @@ Las funciones de esta aplicación son:
 **Frontend:** Handlebars, JavaScript, Bootstrap.
 
 **Backend:** Node.js, Express.
+
